@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Cydeo</title>
+</head>
+<body>
+ <!-- display value of model -->
+<h2 th:text="${Students.get(0).firstName}"></h2>
+<h2 th:text="${Students.get(0).lastName}"></h2>
+
+<!--Concatenation-->
+<h2 th:text="${'Hello' + Students.get(0).firstName}"></h2>
+<h2 th:text="${ Students.get(0).firstName + ' ' + Students.get(0).lastName}"></h2>
+</body>
+</html>
