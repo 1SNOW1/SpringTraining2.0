@@ -3,5 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/spring-11-Data-TableCreation" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/spring-12-Data-Relationship" vcs="Git" />
   </component>
 </project>
