@@ -48,6 +48,11 @@ public class QueryDemo implements CommandLineRunner {
 
         System.out.println("All employees but the excluded name: " + employeeRepository.findByFirstNameIsNot("Seline"));
 
+        System.out.println("----------------------------Query--------------------------");
+
+        System.out.println(employeeRepository.retrieveEmployeeDetail());
+        System.out.println("Employee salary is: " + employeeRepository.retrieveEmployeeSalary() + "$");
+
     }
 
 }
